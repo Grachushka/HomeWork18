@@ -54,7 +54,7 @@ class ShowPhonesVC: UIViewController {
         
     
     @IBAction func addAction(_ sender: Any) {
-        let alert = UIAlertController(title: "Add task", message: "Enter name for new task", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Add Note", message: "Enter name for new note", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "Ok", style: .default) { _ in
             let textFieldName = alert.textFields![0]
             let textFieldPrice = alert.textFields![1]
